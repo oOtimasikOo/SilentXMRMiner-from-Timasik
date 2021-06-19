@@ -86,7 +86,7 @@ Public Class MephTheme : Inherits ContainerControl
 
     Sub New()
         SetStyle(ControlStyles.UserPaint Or ControlStyles.SupportsTransparentBackColor, True)
-        BackColor = Color.FromArgb(28, 28, 28)
+        BackColor = Color.FromArgb(56, 56, 56)
         _subHeader = "Insert Sub Header"
         _accentColor = Color.DarkRed
         DoubleBuffered = True
